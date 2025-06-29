@@ -277,16 +277,89 @@ nav .navlinks li a:hover {
     color: #F5F5DC; /* Change list item color on hover */
 }
 
-/* Portfolio Section */
-#portfolio {
+/* Experience Section */
+#experience {
     padding: 50px 20px;
     background-color: #303023;
     text-align: center;
 }
 
-#portfolio h2 {
+#experience h2 {
     font-size: 32px;
     color: #F5F5DC;
+    margin-bottom: 40px;
+}
+
+.experience-items {
+    width: 100%;
+    max-width: 1100px; /* or whatever width looks best for your design */
+}
+.experience-items .item {
+    background-color: #F5F5DC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Make it flex layout */
+    align-items: center;
+    width: 100%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: left; /* Align text to the left side */
+}
+
+.experience-items .item img {
+    width: 33%; /* 1/3rd of the container */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.experience-items .item .text-content {
+    width: 67%; /* 2/3rd of the container */
+    padding-left: 20px; /* add spacing between image and text */
+}
+.experience-items-wrapper {
+    display: flex;
+    justify-content: center; /* centers the content */
+}
+
+
+.experience-items .item h3 {
+    color: #2C5F2D;
+    margin: 0 0 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.experience-items .item p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
+
+/* Hover Effect */
+.experience-items .item:hover {
+    background-color: #2C5F2D; /* Change background color on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+.experience-items .item:hover h3 {
+    color: #F5F5DC; /* Change heading color on hover */
+}
+
+.experience-items .item:hover p {
+    color: #F5F5DC; /* Change paragraph text color on hover */
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 20px;
+    background-color: #F5F5DC;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 32px;
+    color: #303023;
     margin-bottom: 40px;
 }
 
@@ -299,7 +372,7 @@ nav .navlinks li a:hover {
 }
 
 .portfolio-items .item {
-    background-color: #F5F5DC;
+    background-color: #303023;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -315,14 +388,14 @@ nav .navlinks li a:hover {
 }
 
 .portfolio-items .item h3 {
-    color: #2C5F2D;
+    color: #F5F5DC;
     margin: 15px 0;
     font-size: 20px;
 }
 
 .portfolio-items .item p {
     font-size: 16px;
-    color: #333;
+    color: #F5F5DC;
     text-align: justify;
 }
 
@@ -343,13 +416,13 @@ nav .navlinks li a:hover {
 /* Visuals Section */
 #visuals {
     padding: 50px 20px;
-    background-color: #F5F5DC;
+    background-color: #303023;
     text-align: center;
 }
 
 #visuals h2 {
     font-size: 32px;
-    color: #2C5F2D;
+    color: #F5F5DC;
     margin-bottom: 40px;
 }
 
@@ -362,7 +435,7 @@ nav .navlinks li a:hover {
 }
 
 .images .Leo {
-    background-color: #303023;
+    background-color: #F5F5DC;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -379,7 +452,7 @@ nav .navlinks li a:hover {
 
 .images .Leo p {
     font-size: 16px;
-    color: #F5F5DC;
+    color: #303023;
     text-align: justify;
     margin-top: 15px;
 }
@@ -397,13 +470,13 @@ nav .navlinks li a:hover {
 /* Contact Section */
 #Contact {
     padding: 50px 20px;
-    background-color: #303023;
+    background-color: #F5F5DC;
     text-align: center;
 }
 
 #Contact h2 {
     font-size: 32px;
-    color: #F5F5DC;
+    color: #303023;
     margin-bottom: 40px;
 }
 
@@ -416,7 +489,7 @@ nav .navlinks li a:hover {
 
 .contact-info .indi {
     font-size: 16px;
-    color: #F5F5DC;
+    color: #303023;
 }
 
 .contact-info .indi a {
@@ -426,7 +499,7 @@ nav .navlinks li a:hover {
 }
 
 .contact-info .indi a:hover {
-    color: #F5F5DC;
+    color: #303023;
 }
 
 /* Responsive Design */
